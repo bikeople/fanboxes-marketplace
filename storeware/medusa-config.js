@@ -19,20 +19,6 @@ module.exports = defineConfig({
     redisUrl: process.env.REDIS_URL
   },
   modules: {
-    [Modules.FILE]: {
-      resolve: '@medusajs/file',
-      options: {
-        providers: [
-          {
-            resolve: '@medusajs/file-local-next',
-            id: 'local',
-            options: {
-              backend_url: `${backendUrl}/static`
-            }
-          }
-        ]
-      }
-    },
     [Modules.CACHE]: {
       resolve: "@medusajs/cache-redis",
       options: {
