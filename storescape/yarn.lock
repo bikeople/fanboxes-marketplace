@@ -578,46 +578,46 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@medusajs/client-types@preview":
-  version "0.2.12-preview-20240505115807"
-  resolved "https://registry.yarnpkg.com/@medusajs/client-types/-/client-types-0.2.12-preview-20240505115807.tgz#5090e140d4ade84668eedc81222ab35366088831"
-  integrity sha512-f7T/7WUAGOFfsNsjdCcVoWLlAqryaQB+hF0v/Dzst2hv+PdJGqHfHwTNdeK3ZYhUwzSQ8YdnCYsj9OEJR9SPiQ==
+"@medusajs/client-types@rc":
+  version "0.2.0-rc.0"
+  resolved "https://registry.yarnpkg.com/@medusajs/client-types/-/client-types-0.2.0-rc.0.tgz#c5a4d81657c7ad2710a0683b12edce7fb8c7965b"
+  integrity sha512-wGXkbjbNvS2R9yfjnAbIgN+OGwbSbCEvD8KD/vjTvsxbZbKyD/rHxtpehYOPRJyQOXW+udeCjeEd1CDLXnM+2Q==
 
-"@medusajs/icons@1.2.2-preview-20241001090615":
-  version "1.2.2-preview-20241001090615"
-  resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-1.2.2-preview-20241001090615.tgz#8e2c1574cf0b76fc7155fee9fc8327beb28897ed"
-  integrity sha512-rqDBAMuKvg7eoMf8S3lj62jGrC7fcm9QnqsMv4nFWB4rUBvxYwkNKgaHxiOnPA+9SoPGdcWffLoEaA76JPlr3Q==
+"@medusajs/icons@2.0.0-rc-20241001083650":
+  version "2.0.0-rc-20241001083650"
+  resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-2.0.0-rc-20241001083650.tgz#b84fa32b3a2cd6c12c90941824680762df9fba80"
+  integrity sha512-FYclGKwmgfwoRT77CF7YxYJMPAaQoZS9QenPzuEhyAc6SW0weTCdLjnkpcW/rGI/u/hvoh8ySmfaEDQSHupqdQ==
 
-"@medusajs/js-sdk@preview":
-  version "0.0.2-preview-20241001090615"
-  resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-0.0.2-preview-20241001090615.tgz#2ed713e1347ff88d6ca486a6d245a01fc08f9c96"
-  integrity sha512-znlc9wc7XOvJfJVeUxQYolndP65fDLsAH4WY+yNI6Bq+UthB4QtVbVKQKkhUXXOzNlxZjH+HwWv79mFenj0v4g==
+"@medusajs/js-sdk@rc":
+  version "1.0.0-rc-20241001083650"
+  resolved "https://registry.yarnpkg.com/@medusajs/js-sdk/-/js-sdk-1.0.0-rc-20241001083650.tgz#5fd8b49eb27647ff6a0a09cc345129a199262384"
+  integrity sha512-oMEtTt24iyanI2CE1s3l2v3BUBZHn7JanQ3/Oan5t6v4DFMrBmQtd9QYK27P1fVko52DambKbwFyXSjqwCDEVQ==
   dependencies:
-    "@medusajs/types" "1.12.0-preview-20241001090615"
+    "@medusajs/types" "2.0.0-rc-20241001083650"
     fetch-event-stream "^0.1.5"
     qs "^6.12.1"
 
-"@medusajs/types@1.12.0-preview-20241001090615", "@medusajs/types@preview":
-  version "1.12.0-preview-20241001090615"
-  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-1.12.0-preview-20241001090615.tgz#d1f0fe6745fafb554882e232e0cc2a3160716553"
-  integrity sha512-QCckdc7Y9IjnR75bKT6zwbHA0HTY9LPmH46laLVBWum/3qccv+AIi+sD2lfUZG1JoHtUO/or9dy7khTVwDxqiA==
+"@medusajs/types@2.0.0-rc-20241001083650", "@medusajs/types@rc":
+  version "2.0.0-rc-20241001083650"
+  resolved "https://registry.yarnpkg.com/@medusajs/types/-/types-2.0.0-rc-20241001083650.tgz#762714a4f5d4c62eecaf4d67778d5a60c2d93fbc"
+  integrity sha512-tOfyXAPNEn9HxvAbbqf/ReKMqJTyjVnzLIvht4POJEN9Be3lZ8O7o9pub+aF/iFbwCj+PeoCn5UB+eEySIGNjw==
   dependencies:
     bignumber.js "^9.1.2"
 
-"@medusajs/ui-preset@preview":
-  version "1.1.4-preview-20241001120853"
-  resolved "https://registry.yarnpkg.com/@medusajs/ui-preset/-/ui-preset-1.1.4-preview-20241001120853.tgz#1a5c168adf86d629b9745b6502d6a70ec7f42ea0"
-  integrity sha512-EG8q1dRAWiZXWL3zOJGzag9XF9j4pzK0oogMnAl8/a9XmUP+vSXbPNZDUmL56/d0hKWZ0V2qikjpIY4FtGyRgw==
+"@medusajs/ui-preset@rc":
+  version "2.0.0-rc-20241001083650"
+  resolved "https://registry.yarnpkg.com/@medusajs/ui-preset/-/ui-preset-2.0.0-rc-20241001083650.tgz#d3f204fd64c11494181f31b951539784d97ca01d"
+  integrity sha512-o4orPC2SvFUSr13XbD+c1clndrLSJR8OY/WcQjJpVX4S9ar3u4uy+OcHapwuHpFx2IEGKBQ3y+yzkBYPYNh3FA==
   dependencies:
     "@tailwindcss/forms" "^0.5.3"
     tailwindcss-animate "^1.0.6"
 
-"@medusajs/ui@preview":
-  version "3.0.1-preview-20241001090615"
-  resolved "https://registry.yarnpkg.com/@medusajs/ui/-/ui-3.0.1-preview-20241001090615.tgz#fed6fe1b45d7da7ba8c5934aab35ded8821e82b9"
-  integrity sha512-c0iUdL/XxkzVpzJ4s5Yx6P0znWBB/XBY5//wL/oQvvrs+LCelfbjaplaXY4/mJg6EWCHZ7BvqN5WXTVNuiPXpQ==
+"@medusajs/ui@rc":
+  version "4.0.0-rc-20241001083650"
+  resolved "https://registry.yarnpkg.com/@medusajs/ui/-/ui-4.0.0-rc-20241001083650.tgz#694f82fd24a5aebeb764f07d2d3e508447de2c85"
+  integrity sha512-gZZ++IzwSKSPovb0BJcOBt/7K97MIOp+6OzMJVqh7mJqDGG6GwR+WPRVc1Vh15QAM1AKUm5BwCsKPXEklHSIyQ==
   dependencies:
-    "@medusajs/icons" "1.2.2-preview-20241001090615"
+    "@medusajs/icons" "2.0.0-rc-20241001083650"
     "@radix-ui/react-accordion" "1.2.0"
     "@radix-ui/react-alert-dialog" "1.1.1"
     "@radix-ui/react-avatar" "1.1.0"
