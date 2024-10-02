@@ -28,7 +28,7 @@ module.exports = defineConfig({
             resolve: '@medusajs/file-local-next',
             id: 'local',
             options: {
-              backend_url: `${backendUrl}/static`
+              backend_url: `${admin.backendUrl}/static`
             }
           }
         ]
