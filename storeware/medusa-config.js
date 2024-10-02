@@ -2,8 +2,6 @@ const { loadEnv, Modules, defineConfig } = require('@medusajs/framework/utils')
 
 loadEnv(process.env.NODE_ENV, process.cwd())
 
-const backendUrl = process.env.RAILWAY_PUBLIC_DOMAIN_VALUE || 'http://localhost:9000';
-
 module.exports = defineConfig({
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
@@ -17,7 +15,7 @@ module.exports = defineConfig({
     workerMode: process.env.MEDUSA_WORKER_MODE,
     admin: {
       disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
-      backendUrl: process.env.MEDUSA_BACKEND_URL,
+      backendUrl: process.env.MEDUSA_BACKEND_URL || 'http://localhost:9000',
     },
     redisUrl: process.env.REDIS_URL
   },
