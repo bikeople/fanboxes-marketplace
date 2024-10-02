@@ -13,11 +13,11 @@ module.exports = defineConfig({
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     },
     workerMode: process.env.MEDUSA_WORKER_MODE,
+    redisUrl: process.env.REDIS_URL,
     admin: {
       disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
       backendUrl: process.env.MEDUSA_BACKEND_URL,
-    },
-    redisUrl: process.env.REDIS_URL
+    }
   },
   modules: {
     [Modules.FILE]: {
