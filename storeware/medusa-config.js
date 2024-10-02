@@ -15,7 +15,7 @@ module.exports = defineConfig({
     workerMode: process.env.MEDUSA_WORKER_MODE,
     admin: {
       disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
-      backendUrl: process.env.MEDUSA_BACKEND_URL || 'http://localhost:9000',
+      backendUrl: process.env.MEDUSA_BACKEND_URL,
     },
     redisUrl: process.env.REDIS_URL
   },
