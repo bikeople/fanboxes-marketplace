@@ -15,7 +15,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL.replace('https://', ''),
+        hostname: "medusa-public-images.s3.eu-west-1.amazonaws.com",
       },
       {
         protocol: "https",
@@ -24,6 +24,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
+      },
+      {
+        protocol: "https",
+        hostname: process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL.replace('https://', ''),
       },
     ],
   },
