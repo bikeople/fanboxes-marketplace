@@ -16,6 +16,7 @@ module.exports = defineConfig({
     redisUrl: process.env.REDIS_URL
   },
   admin: {
+    path: process.env.ADMIN_PATH || '/app',
     disable: process.env.DISABLE_MEDUSA_ADMIN === "true",
     backendUrl: process.env.MEDUSA_BACKEND_URL
   },
